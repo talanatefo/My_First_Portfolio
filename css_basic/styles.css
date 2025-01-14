@@ -10,7 +10,9 @@ main {
 
 .articlecont {
   flex: 2;
+  overflow-y: auto;
 }
 .asidecont {
   flex: 1;
+  overflow-y: auto;
 }
