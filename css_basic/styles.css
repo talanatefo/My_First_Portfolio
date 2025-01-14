@@ -1,0 +1,16 @@
+.bodycont {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+.articlecont {
+  flex: 2;
+}
+.asidecont {
+  flex: 1;
+}
