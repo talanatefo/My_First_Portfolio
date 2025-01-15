@@ -1,3 +1,7 @@
+nav img {
+  width: 50px;
+  height: 50px;
+}
 .bodycont {
   display: flex;
   flex-direction: column;
@@ -6,13 +10,24 @@ main {
   display: flex;
   flex-direction: row;
   flex: auto;
+  border: solid 1px grey;
 }
 
 .articlecont {
   flex: 2;
   overflow-y: auto;
+  background-color: lightblue;
+  border: solid 1px grey;
 }
 .asidecont {
   flex: 1;
   overflow-y: auto;
+}
+table {
+  table-layout: inherit;
+  width: 100%;
+  border: 1px solid grey;
+}
+thead {
+  text-align: left;
 }
